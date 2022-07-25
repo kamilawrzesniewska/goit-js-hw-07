@@ -4,7 +4,6 @@ import { galleryItems } from './gallery-items.js';
 const galleryList =  document.querySelector(".gallery");
 
 
-
 const galleryItemsElement = galleryItems.map(element => {
             const image = `<div class="gallery__item">
   <a class="gallery__link" href="${element.original}" >
